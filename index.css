@@ -100,3 +100,51 @@ hr {
     align-items    : center;
     justify-content: center;
 }
+
+.block1 {
+    margin-bottom: 20px;
+}
+
+.block2 {
+    margin-top: 20px;
+}
+
+p {
+    color: red
+}
+
+.text {
+    color: blue
+}
+
+.primary {
+    color: green
+}
+
+#container p {
+    color: yellow
+}
+
+div p {
+    color: purple
+}
+
+#container .text {
+    color: orange
+}
+
+p.text.primary {
+    color: pink
+}
+
+body #container p {
+    color: brown
+}
+
+#container>p {
+    color: black
+}
+
+body div#container p.primary {
+    color: cyan
+}
